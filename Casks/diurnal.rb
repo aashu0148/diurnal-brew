@@ -12,9 +12,9 @@ cask "diurnal" do
   app "Diurnal.app"
 
   caveats <<~EOS
-    This build is not notarized. Install with --no-quarantine to skip the
-    Gatekeeper prompt; without it, allow the app under System Settings >
-    Privacy & Security > Open Anyway. After updating to a newer build,
-    signing in again is expected.
+    This build is not notarized. After installing, clear quarantine with:
+      xattr -dr com.apple.quarantine /Applications/Diurnal.app
+    or allow the app under System Settings > Privacy & Security > Open Anyway.
+    After updating to a newer build, signing in again is expected.
   EOS
 end
