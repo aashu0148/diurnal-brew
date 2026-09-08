@@ -7,7 +7,7 @@ cask "diurnal" do
   desc "Capture-and-plan overlay for macOS"
   homepage "https://github.com/aashu0148/diurnal-brew"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Diurnal.app"
 end
