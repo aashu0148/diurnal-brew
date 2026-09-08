@@ -6,5 +6,4 @@ brew trust aashu0148/diurnal-brew
 brew install --cask diurnal
 ```
 
-Builds are signed with a Developer ID certificate and notarized by Apple —
-no quarantine workaround needed.
+Builds are signed with a Developer ID certificate and notarized by Apple
