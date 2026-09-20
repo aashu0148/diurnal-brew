@@ -1,6 +1,6 @@
 cask "diurnal" do
-  version "0.2.8"
-  sha256 "2edf576ffcda660efa848f9ff4641c20931f900c06c02a1eb979c2b09c401763"
+  version "0.2.9"
+  sha256 "8f295c4808bfffcef7e2e744fedf21a0afe8f6503a9c393527f598426826e51e"
 
   url "https://github.com/aashu0148/diurnal-brew/releases/download/v#{version}/Diurnal-#{version}.dmg"
   name "Diurnal"
